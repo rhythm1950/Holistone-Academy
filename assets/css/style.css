@@ -342,15 +342,15 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-  background-image: url(./portfolio/fullsize/1.jpg);
+  background-image: url(/portfolio/fullsize/1.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-  background-image: url(./portfolio/fullsize/2.jpg);
+  background-image: url(/portfolio/fullsize/2.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-  background-image: url(./portfolio/fullsize/3.jpg);
+  background-image: url(/portfolio/fullsize/3.jpg);
 }
 
 .Modern-Slider .NextArrow {
