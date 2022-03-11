@@ -1827,15 +1827,15 @@ Due to the split circle of progress-left and progress right, we must use the ani
   }
 }
 
-/* Portfolio */
-#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+/* projects */
+#projects .container-fluid, #projects .container-sm, #projects .container-md, #projects .container-lg, #projects .container-xl, #projects .container-xxl {
   max-width: 1920px;
 }
-#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+#projects .container-fluid .projects-box, #projects .container-sm .projects-box, #projects .container-md .projects-box, #projects .container-lg .projects-box, #projects .container-xl .projects-box, #projects .container-xxl .projects-box {
   position: relative;
   display: block;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+#projects .container-fluid .projects-box .projects-box-caption, #projects .container-sm .projects-box .projects-box-caption, #projects .container-md .projects-box .projects-box-caption, #projects .container-lg .projects-box .projects-box-caption, #projects .container-xl .projects-box .projects-box-caption, #projects .container-xxl .projects-box .projects-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1851,16 +1851,16 @@ Due to the split circle of progress-left and progress right, we must use the ani
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+#projects .container-fluid .projects-box .projects-box-caption .project-category, #projects .container-sm .projects-box .projects-box-caption .project-category, #projects .container-md .projects-box .projects-box-caption .project-category, #projects .container-lg .projects-box .projects-box-caption .project-category, #projects .container-xl .projects-box .projects-box-caption .project-category, #projects .container-xxl .projects-box .projects-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+#projects .container-fluid .projects-box .projects-box-caption .project-name, #projects .container-sm .projects-box .projects-box-caption .project-name, #projects .container-md .projects-box .projects-box-caption .project-name, #projects .container-lg .projects-box .projects-box-caption .project-name, #projects .container-xl .projects-box .projects-box-caption .project-name, #projects .container-xxl .projects-box .projects-box-caption .project-name {
   font-size: 1.2rem;
 }
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+#projects .container-fluid .projects-box:hover .projects-box-caption, #projects .container-sm .projects-box:hover .projects-box-caption, #projects .container-md .projects-box:hover .projects-box-caption, #projects .container-lg .projects-box:hover .projects-box-caption, #projects .container-xl .projects-box:hover .projects-box-caption, #projects .container-xxl .projects-box:hover .projects-box-caption {
   opacity: 1;
 }
 .single-item {
