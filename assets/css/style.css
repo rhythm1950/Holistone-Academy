@@ -1,3 +1,4 @@
+/* Global styles */
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
@@ -69,7 +70,7 @@ a.filled-button:hover {
   letter-spacing: 1px;
 }
 
-/* Header section */
+/* Header */
 header {
   position: absolute;
   z-index: 99999;
@@ -207,6 +208,7 @@ header .navbar {
   color: white;
   margin-top: 30px;
 }
+
 .hero-btn:hover{
   background: white !important;
   color: #4e2a09 !important;
@@ -350,7 +352,7 @@ header .navbar {
   margin-bottom: 10px;
 }
 
-/* Feature section */
+/* Courses section */
 .feature-icon {
   font-size: 36px;
 }
@@ -373,6 +375,99 @@ header .navbar {
   transition: all 0.7s;
 }
 
+/* Statistics section */
+.stat-bg {
+  background-color: #4e2a09;
+  color: white !important;
+}
+.stat-heading {
+  color: white;
+  font-size: 36px !important;
+  line-height: 3rem;
+}
+
+/* Team section */
+.team {
+  background-color: #f7f7f7;
+  padding: 120px 0px;
+}
+
+.team-item img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.team-item .down-content {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.team-item .down-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 10px;
+}
+
+.team-item .down-content span {
+  color: #4e2a09;
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.team-item .down-content p {
+  margin-bottom: 20px;
+}
+
+/* Projects section */
+#projects .container-fluid, #projects .container-sm, #projects .container-md, #projects .container-lg, #projects .container-xl, #projects .container-xxl {
+  max-width: 1920px;
+}
+#projects .container-fluid .projects-box, #projects .container-sm .projects-box, #projects .container-md .projects-box, #projects .container-lg .projects-box, #projects .container-xl .projects-box, #projects .container-xxl .projects-box {
+  position: relative;
+  display: block;
+}
+#projects .container-fluid .projects-box .projects-box-caption, #projects .container-sm .projects-box .projects-box-caption, #projects .container-md .projects-box .projects-box-caption, #projects .container-lg .projects-box .projects-box-caption, #projects .container-xl .projects-box .projects-box-caption, #projects .container-xxl .projects-box .projects-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: #4e2a09f8;
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#projects .container-fluid .projects-box .projects-box-caption .project-category, #projects .container-sm .projects-box .projects-box-caption .project-category, #projects .container-md .projects-box .projects-box-caption .project-category, #projects .container-lg .projects-box .projects-box-caption .project-category, #projects .container-xl .projects-box .projects-box-caption .project-category, #projects .container-xxl .projects-box .projects-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#projects .container-fluid .projects-box .projects-box-caption .project-name, #projects .container-sm .projects-box .projects-box-caption .project-name, #projects .container-md .projects-box .projects-box-caption .project-name, #projects .container-lg .projects-box .projects-box-caption .project-name, #projects .container-xl .projects-box .projects-box-caption .project-name, #projects .container-xxl .projects-box .projects-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#projects .container-fluid .projects-box:hover .projects-box-caption, #projects .container-sm .projects-box:hover .projects-box-caption, #projects .container-md .projects-box:hover .projects-box-caption, #projects .container-lg .projects-box:hover .projects-box-caption, #projects .container-xl .projects-box:hover .projects-box-caption, #projects .container-xxl .projects-box:hover .projects-box-caption {
+  opacity: 1;
+}
+.single-item {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.single-item img{
+  height: 240px;
+  width: 100%;
+}
+
+/* Testimonials section */
 .testimonials {
   background-color: #f7f7f7;
   padding-bottom: 40px;
@@ -411,6 +506,41 @@ header .navbar {
   max-width: 60px;
   border-radius: 50%;
   margin: 25px auto 0px auto;
+}
+
+/* Contact section */
+.contact-information {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-information .contact-item {
+  padding: 60px 30px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.contact-information .contact-item i {
+  color: #4e2a09;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.contact-information .contact-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
+}
+
+.contact-information .contact-item p {
+  margin-bottom: 20px;
+}
+
+.contact-information .contact-item a {
+  font-weight: 600;
+  color: #4e2a09;
+  font-size: 15px;
 }
 
 /* Footer */
@@ -572,133 +702,6 @@ header .navbar {
 }
 #footer .credits a{
   color: white;
-}
-
-/* team */
-.team {
-  background-color: #f7f7f7;
-  padding: 120px 0px;
-}
-
-.team-item img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.team-item .down-content {
-  background-color: #fff;
-  padding: 30px;
-}
-
-.team-item .down-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 10px;
-}
-
-.team-item .down-content span {
-  color: #4e2a09;
-  font-weight: 600;
-  font-size: 14px;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.team-item .down-content p {
-  margin-bottom: 20px;
-}
-
-/* projects */
-#projects .container-fluid, #projects .container-sm, #projects .container-md, #projects .container-lg, #projects .container-xl, #projects .container-xxl {
-  max-width: 1920px;
-}
-#projects .container-fluid .projects-box, #projects .container-sm .projects-box, #projects .container-md .projects-box, #projects .container-lg .projects-box, #projects .container-xl .projects-box, #projects .container-xxl .projects-box {
-  position: relative;
-  display: block;
-}
-#projects .container-fluid .projects-box .projects-box-caption, #projects .container-sm .projects-box .projects-box-caption, #projects .container-md .projects-box .projects-box-caption, #projects .container-lg .projects-box .projects-box-caption, #projects .container-xl .projects-box .projects-box-caption, #projects .container-xxl .projects-box .projects-box-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  opacity: 0;
-  color: #fff;
-  background: #4e2a09f8;
-  transition: opacity 0.25s ease;
-  text-align: center;
-}
-#projects .container-fluid .projects-box .projects-box-caption .project-category, #projects .container-sm .projects-box .projects-box-caption .project-category, #projects .container-md .projects-box .projects-box-caption .project-category, #projects .container-lg .projects-box .projects-box-caption .project-category, #projects .container-xl .projects-box .projects-box-caption .project-category, #projects .container-xxl .projects-box .projects-box-caption .project-category {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-#projects .container-fluid .projects-box .projects-box-caption .project-name, #projects .container-sm .projects-box .projects-box-caption .project-name, #projects .container-md .projects-box .projects-box-caption .project-name, #projects .container-lg .projects-box .projects-box-caption .project-name, #projects .container-xl .projects-box .projects-box-caption .project-name, #projects .container-xxl .projects-box .projects-box-caption .project-name {
-  font-size: 1.2rem;
-}
-#projects .container-fluid .projects-box:hover .projects-box-caption, #projects .container-sm .projects-box:hover .projects-box-caption, #projects .container-md .projects-box:hover .projects-box-caption, #projects .container-lg .projects-box:hover .projects-box-caption, #projects .container-xl .projects-box:hover .projects-box-caption, #projects .container-xxl .projects-box:hover .projects-box-caption {
-  opacity: 1;
-}
-.single-item {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-.single-item img{
-  height: 240px;
-  width: 100%;
-}
-
-/* Statistic section */
-.stat-bg {
-  background-color: #4e2a09;
-  color: white !important;
-}
-.stat-heading {
-  color: white;
-  font-size: 36px !important;
-  line-height: 3rem;
-}
-
-/* Contact Info */
-.contact-information {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.contact-information .contact-item {
-  padding: 60px 30px;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.contact-information .contact-item i {
-  color: #4e2a09;
-  font-size: 48px;
-  margin-bottom: 40px;
-}
-
-.contact-information .contact-item h4 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  margin-bottom: 15px;
-}
-
-.contact-information .contact-item p {
-  margin-bottom: 20px;
-}
-
-.contact-information .contact-item a {
-  font-weight: 600;
-  color: #4e2a09;
-  font-size: 15px;
 }
 
 /* Responsive Style */
